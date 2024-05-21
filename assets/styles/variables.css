@@ -1,0 +1,20 @@
+:root {
+  --small-1-font: 18px;
+  --small-2-font: 20px;
+  --medium-1-font: 24px;
+  --medium-2-font: 30px;
+  --medium-3-font: 36px;
+  --large-1-font: 50px;
+  --large-2-font: 70px;
+
+  --small-weight: 400;
+  --middle-weight: 600;
+  --large-weight: 700;
+  
+  --white-color: #FFFFFF;
+  --dark-lilac: #141024;
+  --red-color: #D52027;
+  --gray-color: #141024B2
+  --font-family: "Roboto", sans-serif;
+}
+
