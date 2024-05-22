@@ -1,0 +1,155 @@
+/* //COMMON// */
+h1{
+    font-size: var(--large-2-font);
+    font-weight: var(--middle-weight);
+    margin-bottom: 20px;
+    line-height: 112px;
+    white-space: nowrap
+}
+
+body {
+    font-family: "jost", sans-serif;
+
+}
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.small-wrapper {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: var(--red-color);
+    padding: 25px 54px;
+    border: 0px;
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* _________________ */
+
+/* //HEADER//  */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 30px;
+}
+
+.header-nav-list {
+    display: flex;
+    column-gap: 40px;
+    font-size: var(--small-2-font);
+}
+
+.header {
+    background-color: var(--dark-lilac);
+    color: var(--white-color);
+}
+
+.header-nav-logo {
+    font-size: var(--medium-2-font);
+    font-weight: var(--large-weight);
+}
+
+.header-nav-phone {
+    font-size: var(--medium-2-font);
+    font-weight: var(--middle-weight);
+}
+
+
+
+
+
+
+
+/* //HEADER// */
+
+/* //MAIN// */
+
+.main{
+    background-color: var(--dark-lilac);
+    color: var(--white-color);
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+   
+}
+.main-description{
+    padding-top: 200px;
+    width: 530px;
+    line-height: 32px;
+   
+}
+.main-description-text{
+    margin-bottom: 50px;
+    font-size: var(--small-2-font);
+}
+.main-image img {
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+/* //MAIN// */
+
+/* //about-us// */
+
+.about__us {
+    padding: 120px 0px;
+}
+
+.about__us-description {
+    padding-bottom: 60px;
+}
+
+.about__us-description p span {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about__us-description p {
+    font-size: 30px;
+    line-height: 48px;
+    max-width: 890px;
+}
+
+.about__us-stat {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.about__us-stat-number {
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+.about__us-stat-row p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #141024B2;
+}
+
+/* //about-us// */
