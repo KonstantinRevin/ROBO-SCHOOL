@@ -4,12 +4,19 @@ h1{
     font-weight: var(--middle-weight);
     margin-bottom: 20px;
     line-height: 112px;
+    white-space: nowrap
 }
 
 body {
     font-family: "jost", sans-serif;
 
 }
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -104,3 +111,45 @@ li {
 
 
 /* //MAIN// */
+
+/* //about-us// */
+
+.about__us {
+    padding: 120px 0px;
+}
+
+.about__us-description {
+    padding-bottom: 60px;
+}
+
+.about__us-description p span {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about__us-description p {
+    font-size: 30px;
+    line-height: 48px;
+    max-width: 890px;
+}
+
+.about__us-stat {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.about__us-stat-number {
+    font-size: 70px;
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+.about__us-stat-row p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #141024B2;
+}
+
+/* //about-us// */
