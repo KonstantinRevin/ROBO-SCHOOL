@@ -6,6 +6,18 @@ h1{
     line-height: 112px;
     white-space: nowrap
 }
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    position: relative;
+    display: inline-block;
+}
 
 body {
     font-family: "jost", sans-serif;
@@ -153,3 +165,70 @@ li {
 }
 
 /* //about-us// */
+
+/* //cousre// */
+.course{
+    padding: 100px 0;
+    background-color: #F9F9F9;
+}
+.course h2{
+    padding-bottom: 60px;
+}
+.course-container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+.course-container-row h3{
+    padding-bottom: 20px;
+}
+
+.course p {
+    font-size: 18px;
+    color: #141024B2;
+}
+.additional__icon{
+    position: absolute;
+    cursor: pointer;
+    right: -30px;
+    top: 3px;
+
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #14102414;
+
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.additional__icon-hover__text{
+    display: none;
+    cursor: none;
+    position: absolute;
+    right: -236px;
+    top: -65px;
+    min-width: 220px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px #1410241A;
+}
+.additional__icon:hover .additional__icon-hover__text {
+    display: block;
+  }
+
+
+
+
+
+
+/* //cousre// */
