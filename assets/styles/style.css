@@ -227,8 +227,86 @@ li {
   }
 
 
-
-
-
-
 /* //cousre// */
+
+/* //treners// */
+
+.treners {
+    padding: 120px 0;
+}
+
+.treners h2 {
+    margin-bottom: 60px;
+}
+
+.treners h3 {
+    margin-top: 20px;
+} 
+
+.treners-slider {
+    overflow: hidden;
+}
+
+.treners-cards {
+    display: flex;
+    column-gap: 40px;
+}
+
+.treners-person-text {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #141024B2;
+}
+
+.treners-peson-more {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #D52027;
+    cursor: pointer;
+}
+
+
+/* //pacage// */
+.pacage{
+    padding-bottom: 120px;
+}
+.pacage-cards{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 80px;
+}
+.pacage-card{
+    position: relative;
+    border: solid 1px #14102433;
+    border-radius: 20px;
+    height: 460px;
+    width: 360px;
+    text-align: center;
+}
+.pacage-card-title{
+    padding: 40px 0 63px;
+}
+.pacage-card-description{
+    padding-top: 40px;
+}
+
+.pacage-card:hover {
+    transform: scale(1.1);
+    transition: ease 0.2s;
+    color: white;
+    background-color: #141024;
+}
+  
+.pacage-card .btn{
+    position: absolute;
+    left: 72px;
+    bottom: 40px;
+}
+.pacage-card-title{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+}
+/* //pacage// */
