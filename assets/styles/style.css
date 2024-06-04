@@ -30,6 +30,7 @@ h2 {
     font-size: var(--medium-fontSize-largeMore);
     font-weight: var(--system-fontWeight-mediumBold);
     line-height: 80px;
+    text-align: center;
 }
 
 h3 {
@@ -312,10 +313,16 @@ li {
 
 .course-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+
     column-gap: 70px;
+    row-gap: 50px;
 }
 
+.course-container-row{
+max-width: 320px;
+}
 .course-container-row h3{
     padding-bottom: 20px;
 }
