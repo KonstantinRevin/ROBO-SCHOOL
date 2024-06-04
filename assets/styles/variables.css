@@ -1,20 +1,19 @@
 :root {
-  --small-1-font: 18px;
-  --small-2-font: 20px;
-  --medium-1-font: 24px;
-  --medium-2-font: 30px;
-  --medium-3-font: 36px;
-  --large-1-font: 50px;
-  --large-2-font: 70px;
+  --system-fontSize-small: 18px;
+  --system-fontSize-more: 20px;
+  --system-fontSize-medium: 24px;
+  --system-fontSize-large: 30px;
+  --medium-fontSize-largeMore: 50px;
+  --system-fontSize-jumbo: 70px;
 
-  --small-weight: 400;
-  --middle-weight: 600;
-  --large-weight: 700;
+  --system-fontWeight-medium: 400;
+  --system-fontWeight-mediumBold: 600;
+  --system-fontWeight-Bold: 700;
   
-  --white-color: #FFFFFF;
-  --dark-lilac: #141024;
-  --red-color: #D52027;
-  --gray-color: #141024B2
+  --system-color-white: #FFFFFF;
+  --system-color-dark-lilac: #141024;
+  --system-color-red: #D52027;
+  --system-color-gray: #141024B2
   --font-family: "Roboto", sans-serif;
 }
 
