@@ -33,6 +33,7 @@ h2 {
     text-align: center;
 }
 
+
 h3 {
     font-size: var(--system-fontSize-medium);
     font-weight: var(--system-fontWeight-mediumBold);
@@ -75,6 +76,15 @@ li {
     color: var(--system-color-white);
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media (max-width: 576px){
+    h2 {
+        font-size: 30px;
+        font-weight: var(--system-fontWeight-mediumBold);
+        line-height: 30px;
+        text-align: center;
+    }
 }
 /* _________________ */
 
@@ -392,7 +402,7 @@ max-width: 320px;
 
 .treners-cards {
     display: flex;
-    column-gap: 40px;
+    column-gap: 10px;
 }
 
 .treners-person-text {
@@ -410,6 +420,12 @@ max-width: 320px;
     cursor: pointer;
 }
 
+@media (max-width: 1200px){
+    .treners-person{
+        text-align: center;
+    }
+}
+
 /* pacage */
 
 .pacage{
@@ -423,12 +439,15 @@ max-width: 320px;
 }
 
 .pacage-card{
-    position: relative;
     border: solid 1px #14102433;
     border-radius: 20px;
     height: 460px;
     width: 360px;
     text-align: center;
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 .pacage-card-title{
@@ -447,15 +466,22 @@ max-width: 320px;
 }
   
 .pacage-card .btn{
-    position: absolute;
-    left: 72px;
-    bottom: 40px;
+    margin: 0 auto 40px;
+    width: 215px;
 }
 
 .pacage-card-title{
     font-size: var(--system-fontSize-large);
     font-weight: var(--system-fontWeight-mediumBold);
     line-height: 48px;
+}
+
+@media (max-width: 992px) {
+    .pacage-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 40px;
+    }
 }
 
 /* pacage */
@@ -485,17 +511,19 @@ max-width: 320px;
 .request-row {
     display: flex;
     justify-content: space-evenly;
+    row-gap: 40px;
+    flex-wrap: wrap;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    width: 500px;
 }
 
 .form-input {
     padding-left: 20px;
-    width: 500px;
     height: 64px;
     font-weight: 500;
     font-size: var(--system-fontSize-small);
@@ -512,6 +540,12 @@ max-width: 320px;
     padding: 18px 0;
 }
 
+@media (max-width: 576px) {
+  
+}
+
+
+
 /* footer */
 
 .footer {
@@ -520,10 +554,11 @@ max-width: 320px;
     color: var(--system-color-white);
 }
 
-.footer-row {
+/* .footer-row {
     display: flex;
     justify-content: space-between;
-}
+    flex-wrap: wrap;
+} */
 
 .footer-content-logo {
     font-size: var(--system-fontSize-large);
@@ -535,8 +570,43 @@ max-width: 320px;
     padding-top: 5px;
     cursor: pointer;
 }
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .footer-contact {
     font-size: var(--system-fontSize-large);
     font-weight: var(--system-fontWeight-Bold);
+}
+
+
+
+
+
+
+
+.treners-slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none; /* Или используйте visibility: hidden; */
+    visibility: hidden;
+}
+
+@media (max-width: 525px){
+   .footer-content{
+    justify-content: center;
+    row-gap: 20px;
+   }
+   .footer-content-subLogo{
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+   }
 }
